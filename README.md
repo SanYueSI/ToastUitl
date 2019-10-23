@@ -10,16 +10,18 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/13934769-346811bf9bb170df.png)
  ## 使用方法 
  1.根目录的 build.gradle 添加
-
+~~~
 allprojects {
    	repositories {
    		...
    		maven { url 'https://jitpack.io' }
    	}
    }
+   ~~~
 2.在app的buil.gradle 添加
+~~~
 implementation 'com.github.YiPHaoYouWei:ToastUitl:1.0'
-
+~~~
 3.初始化
 ![image.png](https://upload-images.jianshu.io/upload_images/13934769-06ed1dd527f81a96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 4.直接调用
